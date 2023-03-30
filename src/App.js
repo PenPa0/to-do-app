@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import AAB from './components/AAB';
+// import Greeter from './components/Greeter';
+// import CustomButton from './components/CustomButton';
+import ToDoContainer from './components/ToDoContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greeter person="John"/>
+      <Greeter person="Steve"/>
+      <Greeter person="Juan"/>
+<CustomButton onClick={() => alert('Clicked!')} />
+      <AAB/> */}
+      <ToDoContainer/>
     </div>
   );
 }

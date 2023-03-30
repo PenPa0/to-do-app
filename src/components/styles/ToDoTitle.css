@@ -1,0 +1,11 @@
+.titleContainer {
+    width: 380px;
+    height: 100px;
+    /* border: 2px solid sandybrown; */
+    margin: 10px;
+    color: gray;
+}
+
+.todos {
+    font-size: 40px;
+}
