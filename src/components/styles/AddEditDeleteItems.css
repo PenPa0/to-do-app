@@ -21,11 +21,19 @@
     margin: 20px;
     text-align: start;
 }
-.display div {
+
+.boxes{
     width: 350px;
     height: 30px;
     border: 1px solid black;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     background-color:gainsboro
+}
+
+.icons {
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

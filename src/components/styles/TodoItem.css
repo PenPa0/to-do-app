@@ -1,0 +1,24 @@
+.display {
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    text-align: start;
+}
+
+
+.boxes{
+    width: 350px;
+    height: 30px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color:gainsboro
+}
+
+
+.icons {
+    width: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

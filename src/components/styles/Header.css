@@ -1,0 +1,12 @@
+.headerContainer {
+    width: 380px;
+    height: 125px;
+    border: 2px solid sandybrown;
+    margin: 10px 0px 2px 10px;
+    color: gray;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 50px;
+}

@@ -1,11 +1,11 @@
-.motherContainer {
+.borderContainer {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
 }
 
-.container {
-    width: 400px;
+.parentContainer {
+    width: 405px;
     height: 400px;
     border: 2px solid skyblue;
 }

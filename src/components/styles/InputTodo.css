@@ -1,0 +1,26 @@
+.inputContainer {
+    width: 367px;
+    margin: 5px;
+    height: 45px;
+    border: 2px solid green;
+}
+
+.inputField {
+    width: 350px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputField::placeholder {
+    padding: 15px;
+}
+
+.addIcon {
+    position: relative;
+    left: 155px;
+    bottom: 34px;
+}

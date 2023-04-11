@@ -1,19 +1,18 @@
-// import logo from './logo.svg';
-import './App.css';
-// import AAB from './components/AAB';
+import "./App.css";
 // import Greeter from './components/Greeter';
 // import CustomButton from './components/CustomButton';
-import ToDoContainer from './components/ToDoContainer';
+// import ToDoContainer from './components/ToDoContainer';
+import TodoApp from "./components/TodoApp";
 
 function App() {
   return (
     <div className="App">
       {/* <Greeter person="John"/>
       <Greeter person="Steve"/>
-      <Greeter person="Juan"/>
 <CustomButton onClick={() => alert('Clicked!')} />
-      <AAB/> */}
-      <ToDoContainer/>
+*/}
+      {/* <ToDoContainer/> */}
+      <TodoApp />
     </div>
   );
 }
